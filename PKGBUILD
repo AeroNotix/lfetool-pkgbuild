@@ -3,17 +3,15 @@
 pkgname=lfetool
 pkgver=0.0.1
 pkgrel=1
-pkgdesc=""
+pkgdesc="An Erlang Lisper's Tool for Admin Tasks and Infrastructure"
 arch=('i686' 'x86_64')
 url="https://github.com/oubiwann/lfetool"
 license=('Apache')
-groups=()
 depends=('erlang' 'lfe')
 makedepends=('git' 'rebar')
 provides=('lfetool')
 source=('git://github.com/oubiwann/lfetool.git')
 md5sums=('SKIP')
-noextract=()
 
 
 build() {
